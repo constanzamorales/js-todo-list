@@ -9,7 +9,7 @@ while (true) {
     console.log(`${task} was added to your list.`);
   } else
   if (command === "list") {
-    console.log("*********************");
+    console.log("********* TO-DO's ********");
     if (todoList.length > 0) {
       for (let i = 0; i < todoList.length; i++) {
         console.log(i, todoList[i]);
@@ -17,7 +17,7 @@ while (true) {
     } else {
       console.log("You don't have any to-do's!");
     }
-    console.log("*********************");
+    console.log("**************************");
   } else
   if (command === "delete") {
     let todoIndex = prompt("What's the index of the to-do you want to delete?")
