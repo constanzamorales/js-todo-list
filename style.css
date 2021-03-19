@@ -2,8 +2,6 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   color: #202124;
   max-width: 400px;
-  border: 1px solid #d74133;
-  border-radius: 10px;
   padding: 20px 50px 50px 50px;
   margin: 50px auto;
 }
